@@ -10,6 +10,13 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
+    min-height: calc(100vh - 15px);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper main {
+    flex: 1 1 auto;
 }
 
 .header {
